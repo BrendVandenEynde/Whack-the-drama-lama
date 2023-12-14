@@ -1,0 +1,785 @@
+
+/* begin galaxy fold version */
+
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+
+	body {
+		background: linear-gradient(-45deg, #ff6536, #f02070, #31c8ff, #27bb13);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+		height: 100vh;
+		margin:0;
+		
+	}
+	
+	.titel {
+		margin-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		left: 0;
+		 bottom: 0;
+		  width: 100%;
+		color: white;
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 12px;
+	}
+	
+	.foto {
+		text-align: center;
+		max-width: 100%;
+	}
+	
+	.Lama {
+		width: 150px;
+		height: 350px;
+		margin-top: -7px;
+		animation-name: lamaSwing;
+		animation-duration: 6s;
+		position: relative;
+		animation-iteration-count: infinite;
+		transition-timing-function: ease-in-out;
+	}
+	
+	.knop {
+		background-color:transparent;
+		border:0;
+		text-align: center;
+		padding:0;
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	p {
+		color: white;
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 18px;
+		margin:5px;
+		font-weight: bold;
+	}
+	
+	a {
+		color: white;
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+	
+	 @keyframes lamaSwing {
+		0%   {right:0px; top:-7px;}
+		2%   {right:-5px; top:-7px;}
+		5%   {left:-15px; top:-7px;}
+		10%  {left:-25px; top:-10px;}
+		15%  {left:-35x; top:-15px;}
+		20%  {left:-45px; top:-20px;}
+		25%  {left:-50px; top:-20px; transform: rotate(20deg);}
+		30%  {left:-45px; top:-15px;}
+		35%  {left:-35px; top:-10px;}
+		40%  {left:-25px; top:-5px;}
+		45%  {left:-15px; top:0px;}
+		50%	 {right:0px; top:0px;}
+		55%	 {right:15px; top:-5px;}
+		60%	 {right:25px; top:-10px;}
+		65%	 {right:35px; top:-15px;}
+		70%	 {right:45px; top:-20px;}
+		75%  {left:50px; top:-20px; transform: rotate(-5deg);}
+		80%  {left:45px; top:-20px;}
+		85%  {left:35px; top:-15px;}
+		90%  {left:25px; top:-10px;}
+		95%  {left:15px; top:-7px;}
+		100% {right:0px; top:-7px;}
+	  }
+	
+	}
+
+/* einde galaxy fold version */
+
+/* Mobile version */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+body {
+	background: linear-gradient(-45deg, #ff6536, #f02070, #31c8ff, #27bb13);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	margin:0;
+}
+
+.titel {
+    margin-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	left: 0;
+ 	bottom: 0;
+  	width: 100%;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+}
+
+.foto {
+	text-align: center;
+	max-width: 100%;
+}
+
+.Lama {
+	width: 250px;
+	height: 500px;
+	margin-top: -7px;
+	animation-name: lamaSwing;
+	animation-duration: 6s;
+	position: relative;
+	animation-iteration-count: infinite;
+	transition-timing-function: ease-in-out;
+}
+
+.knop {
+	background-color:transparent;
+	border:0;
+	text-align: center;
+	padding:0;
+	width: 100%;
+	overflow: hidden;
+}
+
+p {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 18px;
+	margin:5px;
+	font-weight: bold;
+}
+
+a {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ @keyframes lamaSwing {
+	0%   {right:0px; top:-7px;}
+	2%   {right:-5px; top:-7px;}
+	5%   {left:-15px; top:-7px;}
+	10%  {left:-25px; top:-10px;}
+	15%  {left:-35x; top:-15px;}
+	20%  {left:-45px; top:-20px;}
+	25%  {left:-50px; top:-20px; transform: rotate(20deg);}
+	30%  {left:-45px; top:-15px;}
+	35%  {left:-35px; top:-10px;}
+	40%  {left:-25px; top:-5px;}
+	45%  {left:-15px; top:0px;}
+	50%	 {right:0px; top:0px;}
+	55%	 {right:15px; top:-5px;}
+	60%	 {right:25px; top:-10px;}
+	65%	 {right:35px; top:-15px;}
+	70%	 {right:45px; top:-20px;}
+	75%  {left:50px; top:-20px; transform: rotate(-5deg);}
+	80%  {left:45px; top:-20px;}
+	85%  {left:35px; top:-15px;}
+	90%  {left:25px; top:-10px;}
+	95%  {left:15px; top:-7px;}
+	100% {right:0px; top:-7px;}
+  }
+
+}
+
+
+/* End Mobile version */
+
+
+
+
+	/* begin mini tablet */
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+
+		body {
+			background: linear-gradient(-45deg, #ff6536, #f02070, #31c8ff, #27bb13);
+			background-size: 400% 400%;
+			animation: gradient 15s ease infinite;
+			height: 100vh;
+			margin:0;
+		}
+		
+		.titel {
+			margin-top: 10px;
+			padding-bottom: 10px;
+			text-align: center;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 12px;
+		}
+		
+		.foto {
+			text-align: center;
+			width: 100%;
+			overflow: hidden;
+		}
+		
+		.Lama {
+			width: 250px;
+			height: 500px;
+			margin-top: -7px;
+			animation-name: lamaSwing;
+			animation-duration: 6s;
+			position: relative;
+			animation-iteration-count: infinite;
+			transition-timing-function: linear;
+		}
+		
+		.knop {
+			background-color:transparent;
+			border:0;
+			text-align: center;
+			padding:0;
+		}
+		
+		p {
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 18px;
+			margin:5px;
+			font-weight: bold;
+		}
+		
+		a {
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+		
+		 @keyframes lamaSwing {
+			0%   {right:0px; top:-7px;}
+			2%   {right:-5px; top:-7px;}
+			5%   {left:-15px; top:-7px;}
+			10%  {left:-25px; top:-10px;}
+			15%  {left:-35x; top:-15px;}
+			20%  {left:-45px; top:-20px;}
+			25%  {left:-50px; top:-20px; transform: rotate(20deg);}
+			30%  {left:-45px; top:-15px;}
+			35%  {left:-35px; top:-10px;}
+			40%  {left:-25px; top:-5px;}
+			45%  {left:-15px; top:0px;}
+			50%	 {right:0px; top:0px;}
+			55%	 {right:15px; top:-5px;}
+			60%	 {right:25px; top:-10px;}
+			65%	 {right:35px; top:-15px;}
+			70%	 {right:45px; top:-20px;}
+			75%  {left:50px; top:-20px; transform: rotate(-5deg);}
+			80%  {left:45px; top:-20px;}
+			85%  {left:35px; top:-15px;}
+			90%  {left:25px; top:-10px;}
+			95%  {left:15px; top:-7px;}
+			100% {right:0px; top:-7px;}
+		  }
+
+}
+
+
+/* einde mini tablet */
+
+
+
+/*  Tablet version */
+
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+
+body {
+	background: linear-gradient(-45deg, #ff6536, #f02070, #31c8ff, #27bb13);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	margin:0;
+}
+		
+.titel {
+    margin-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	left: 0;
+ 	bottom: 0;
+  	width: 100%;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 18px;
+}
+
+.foto {
+	text-align: center;
+	max-width: 100%;
+}
+
+.Lama {
+	width: 450px;
+	height: 700px;
+	margin-top: -7px;
+	animation-name: lamaSwing;
+	animation-duration: 6s;
+	position: relative;
+	animation-iteration-count: infinite;
+	transition-timing-function: linear;
+}
+
+.knop {
+	background-color:transparent;
+	border:0;
+	text-align: center;
+	padding:0;
+}
+
+p {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 33px;
+	font-weight: bold;
+	margin: 5px;
+}
+
+a {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 33px;
+	font-weight: bold;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes lamaSwing {
+	0%   {right:0px; top:-7px;}
+	2%   {right:-5px; top:-7px;}
+	5%   {left:-15px; top:-7px;}
+	10%  {left:-25px; top:-10px;}
+	15%  {left:-35x; top:-15px;}
+	20%  {left:-45px; top:-20px;}
+	25%  {left:-50px; top:-20px; transform: rotate(20deg);}
+	30%  {left:-45px; top:-15px;}
+	35%  {left:-35px; top:-10px;}
+	40%  {left:-25px; top:-5px;}
+	45%  {left:-15px; top:0px;}
+	50%	 {right:0px; top:0px;}
+	55%	 {right:15px; top:-5px;}
+	60%	 {right:25px; top:-10px;}
+	65%	 {right:35px; top:-15px;}
+	70%	 {right:45px; top:-20px;}
+	75%  {left:50px; top:-20px; transform: rotate(-5deg);}
+	80%  {left:45px; top:-20px;}
+	85%  {left:35px; top:-15px;}
+	90%  {left:25px; top:-10px;}
+	95%  {left:15px; top:-7px;}
+	100% {right:0px; top:-7px;}
+  }
+
+}
+
+
+/*  end Tablet version */
+
+/* begin kleine pc versie */
+
+
+@media only screen and (min-width: 960px) and (max-width:  1023px) {
+
+	body {
+		background: linear-gradient(-45deg, #ff6536, #f02070, #31c8ff, #27bb13);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+		height: 100vh;
+		margin:0;
+	}
+			
+	.titel {
+		margin-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		left: 0;
+		 bottom: 0;
+		  width: 100%;
+		color: white;
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 18px;
+	}
+	
+	.foto {
+		text-align: center;
+		max-width: 100%;
+	}
+	
+	.Lama {
+		width: 450px;
+		height: 700px;
+		margin-top: -7px;
+		animation-name: lamaSwing;
+		animation-duration: 6s;
+		position: relative;
+		animation-iteration-count: infinite;
+		transition-timing-function: linear;
+		cursor:url('/Images/knuppel_idle.png'),auto;
+	}
+	
+	.knop {
+		background-color:transparent;
+		border:0;
+		text-align: center;
+		padding:0;
+	}
+	
+	p {
+		color: white;
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 33px;
+		font-weight: bold;
+		margin: 5px;
+	}
+	
+	a {
+		color: white;
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 33px;
+		font-weight: bold;
+	}
+	
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+	
+	@keyframes lamaSwing {
+		0%   {right:0px; top:-7px;}
+		2%   {right:-5px; top:-7px;}
+		5%   {left:-15px; top:-7px;}
+		10%  {left:-25px; top:-10px;}
+		15%  {left:-35x; top:-15px;}
+		20%  {left:-45px; top:-20px;}
+		25%  {left:-50px; top:-20px; transform: rotate(20deg);}
+		30%  {left:-45px; top:-15px;}
+		35%  {left:-35px; top:-10px;}
+		40%  {left:-25px; top:-5px;}
+		45%  {left:-15px; top:0px;}
+		50%	 {right:0px; top:0px;}
+		55%	 {right:15px; top:-5px;}
+		60%	 {right:25px; top:-10px;}
+		65%	 {right:35px; top:-15px;}
+		70%	 {right:45px; top:-20px;}
+		75%  {left:50px; top:-20px; transform: rotate(-5deg);}
+		80%  {left:45px; top:-20px;}
+		85%  {left:35px; top:-15px;}
+		90%  {left:25px; top:-10px;}
+		95%  {left:15px; top:-7px;}
+		100% {right:0px; top:-7px;}
+	  }
+	
+	}
+	
+	
+	/* einde kleine pc versie */
+
+	@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+		body {
+			background: linear-gradient(-45deg, #ff6536, #f02070, #31c8ff, #27bb13);
+			background-size: 400% 400%;
+			animation: gradient 15s ease infinite;
+			height: 100vh;
+			margin:0;
+		}
+				
+		.titel {
+			margin-top: 10px;
+			padding-bottom: 10px;
+			text-align: center;
+			left: 0;
+			 bottom: 0;
+			  width: 100%;
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 18px;
+		}
+		
+		.foto {
+			text-align: center;
+			max-width: 100%;
+		}
+		
+		.Lama {
+			width: 450px;
+			height: 700px;
+			margin-top: -7px;
+			animation-name: lamaSwing;
+			animation-duration: 6s;
+			position: relative;
+			animation-iteration-count: infinite;
+			transition-timing-function: linear;
+			cursor:url('/Images/knuppel_idle.png'),auto;
+		}
+		.knop.onClick{
+			cursor: url('/Images/knuppel_hit.png'),auto;
+		  }
+		
+		.knop {
+			background-color:transparent;
+			border:0;
+			text-align: center;
+			padding:0;
+		}
+		
+		p {
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 33px;
+			font-weight: bold;
+			margin: 5px;
+		}
+		
+		a {
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 33px;
+			font-weight: bold;
+		}
+		
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+		
+		@keyframes lamaSwing {
+			0%   {right:0px; top:-7px;}
+			2%   {right:-5px; top:-7px;}
+			5%   {left:-15px; top:-7px;}
+			10%  {left:-25px; top:-10px;}
+			15%  {left:-35x; top:-15px;}
+			20%  {left:-45px; top:-20px;}
+			25%  {left:-50px; top:-20px; transform: rotate(20deg);}
+			30%  {left:-45px; top:-15px;}
+			35%  {left:-35px; top:-10px;}
+			40%  {left:-25px; top:-5px;}
+			45%  {left:-15px; top:0px;}
+			50%	 {right:0px; top:0px;}
+			55%	 {right:15px; top:-5px;}
+			60%	 {right:25px; top:-10px;}
+			65%	 {right:35px; top:-15px;}
+			70%	 {right:45px; top:-20px;}
+			75%  {left:50px; top:-20px; transform: rotate(-5deg);}
+			80%  {left:45px; top:-20px;}
+			85%  {left:35px; top:-15px;}
+			90%  {left:25px; top:-10px;}
+			95%  {left:15px; top:-7px;}
+			100% {right:0px; top:-7px;}
+		  }
+		
+		}
+		
+		
+		/* einde kleine pc versie */
+
+	/* begin grote pc versie */
+
+	@media only screen and (min-width: 1281px) {
+
+		body {
+			background: linear-gradient(-45deg, #ff6536, #f02070, #31c8ff, #27bb13);
+			background-size: 400% 400%;
+			animation: gradient 15s ease infinite;
+			height: 100vh;
+			margin:0;
+			cursor:url('./Images/knuppel_idle.png'),auto;
+		}
+			
+		
+		body:active {
+		cursor: url('./Images/knuppel_hit.png'), auto;
+		}
+
+		.titel {
+			margin-top: 10px;
+			padding-bottom: 10px;
+			text-align: center;
+			left: 0;
+			 bottom: 0;
+			  width: 100%;
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 18px;
+		}
+		
+		.foto {
+			text-align: center;
+			max-width: 100%;
+		}
+		
+		.Lama {
+			width: 450px;
+			height: 700px;
+			margin-top: -7px;
+			animation-name: lamaSwing;
+			animation-duration: 6s;
+			position: relative;
+			animation-iteration-count: infinite;
+			transition-timing-function: linear;
+			cursor:url('./Images/knuppel_idle.png'),auto;
+		}
+
+		img:hover {
+			animation: shake 0.2s;
+			animation-iteration-count: infinite;
+		  }
+		
+		img:active {
+			cursor: url('./Images/knuppel_hit.png'), auto;
+			animation: isHit 0.5s;
+			animation-iteration-count: infinite;
+		  }
+		
+		.knop {
+			background-color:transparent;
+			border:0;
+			text-align: center;
+			padding:0;
+		}
+		
+		p {
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 33px;
+			font-weight: bold;
+			margin: 5px;
+		}
+		
+		a {
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 33px;
+			font-weight: bold;
+		}
+		
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+		
+		@keyframes lamaSwing {
+			0%   {right:0px; }
+			2%   {left:-5px;}
+			4%   {left:-10px; }
+			5%   {left:-15px; }
+			10%  {left:-25px;}
+			15%  {left:-35x; }
+			20%  {left:-45px;}
+			25%  {left:-50px;  transform: rotate(10deg);}
+			30%  {left:-45px; }
+			35%  {left:-35px; }
+			40%  {left:-25px;}
+			45%  {left:-15px; }
+			50%	 {right:0px;}
+			55%	 {right:15px;}
+			60%	 {right:25px; }
+			65%	 {right:35px;}
+			70%	 {right:45px; }
+			75%  {left:50px;  transform: rotate(-10deg);}
+			80%  {left:45px; }
+			85%  {left:35px; }
+			90%  {left:25px; }
+			95%  {left:15px; }
+			98%  {left:5px; }
+			100% {left:0px; }
+		  }
+		
+		}
+		
+		@keyframes shake {
+			0% { transform: translateX(0) }
+  			25% { transform: translateX(3px) }
+  			50% { transform: translateX(-5px) }
+ 			75% { transform: translateX(4px) }
+ 			100% { transform: translateX(0)  }
+		  }
+
+		@keyframes isHit {
+			0% { transform: translate(1px, 1px) rotate(0deg); }
+			10% { transform: translate(-1px, -2px) rotate(-5deg); }
+			20% { transform: translate(-3px, 0px) rotate(1deg); }
+			30% { transform: translate(3px, 2px) rotate(0deg); }
+			40% { transform: translate(1px, -1px) rotate(1deg); }
+			50% { transform: translate(-1px, 2px) rotate(-1deg); }
+			60% { transform: translate(-3px, 1px) rotate(0deg); }
+			70% { transform: translate(3px, 1px) rotate(-1deg); }
+			80% { transform: translate(-1px, -1px) rotate(5deg); }
+			90% { transform: translate(1px, 2px) rotate(0deg); }
+			100% { transform: translate(1px, -2px) rotate(-1deg); }
+		  }
+	
+		
+		/* einde grote pc versie */
